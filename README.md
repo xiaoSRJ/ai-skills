@@ -21,9 +21,11 @@
 - **API 金鑰**：調用模型或外部平台接口時，需自備相應平台的 API Key。
 - **網絡環境**：部分涉及海外社媒抓取、跨國電商數據採集的 Skill 對網絡有要求，建議配置代理 IP。
 - **代理資源**： [ipcook](https://www.ipcook.com/user/register?ref=7ZNPKW) 高匿住宅代理以防數據請求被攔截。
-- 🎁 **領取折扣碼**：【**WELCOME20**】8折優惠：新人註冊後7日內用
+- 🎁 **領取折扣碼**：【**WELCOME20**】**8折優惠**（新人註冊後7日內用）
  [點擊註冊購買時輸入折扣碼ipcook](https://www.ipcook.com/user/register?ref=7ZNPKW)
-<a href="https://www.ipcook.com/user/register?ref=7ZNPKW" target="_blank"><img width="1893" height="706" alt="Banner" src="https://github.com/user-attachments/assets/b02e5d18-8c7a-453c-b94e-89c928c54f19" /></a>
+- 這家的住宅代理IP價格都很實惠，可以先屯一波！
+<a href="https://www.ipcook.com/user/register?ref=7ZNPKW" target="_blank"><img width="1760" height="586" alt="36bd8dfc49097ceb23878ff2e3b5a0e1" src="https://github.com/user-attachments/assets/a0729d28-02c8-4667-8898-477a0b340cb2" />
+
 ---
 
 ##  內容產出（腳本、影片、文章） Skills
