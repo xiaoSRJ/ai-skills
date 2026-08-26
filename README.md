@@ -1,161 +1,161 @@
-# Easy AI Skills: AI Skills & Agent Skills 中文精选导航
+# Easy AI Skills: AI Skills & Agent Skills 精選導航
 
-[简体中文](README.md) · [English](README.en.md)
+[簡體中文](README.md) · [English](README.en.md)
 
-### 这个项目是什么？
-本项目收集、整理并精选了 GitHub 上真实可落地、针对具体业务场景的 **AI Skills**（涵盖 Claude 插件、Cursor 规则、MCP 技能节点等形态）。
+### 這個項目是什麼？
+本項目收集、整理並精選了 GitHub 上真實可落地、針對具體業務場景的 **AI Skills**（涵蓋 Claude 外掛、Cursor 規則、MCP 技能節點等形態）。
 
-### 这个项目有什么用？
-当前 GitHub 上有大量零散的 AI 项目，但大多数偏向底层技术演示。本项目严格从“实际业务痛点”出发，专为出海营销、电商选品、内容分发等场景，过滤出真正能给 AI 直接装备、拿来干活的**实用 Skills**。
-极大地**降低你的筛选成本**，明确告诉你在每个具体的运营节点：**该给你的 AI 装备什么 Skill，以及怎么用**。
+### 這個項目有什麼用？
+當前 GitHub 上有大量零散的 AI 項目，但大多數偏向底層技術演示。本項目嚴格從「實際業務痛點」出發，專為出海營銷、電商選品、內容分發等場景，過濾出真正能給 AI 直接裝備、拿來幹活的**實用 Skills**。
+極大地**降低你的篩選成本**，明確告訴你在每個具體的營運節點：**該給你的 AI 裝備什麼 Skill，以及怎麼用**。
 
-### 🎯 适合人群
-跨境电商卖家、海外社媒矩阵运营者、独立站站长，以及希望利用 AI IDE（如 Cursor / Windsurf / Claude Code）构建个人自动化工作流的超级个体。
-
----
-
-## ⚙️ 运行准备
-
-- **安装命令**：已写入了下列表格内容
-- **基础环境**：视具体项目要求，可能需预装 Python、Node.js 或配置好相应的 AI 编辑器。
-- **API 密钥**：调用模型或外部平台接口时，需自备相应平台的 API Key。
-- **网络环境**：部分涉及海外社媒抓取、跨国电商数据采集的 Skill 对网络有要求，建议配置代理IP。
-- **代理资源**： [ipcook](https://www.ipcook.com/user/register?ref=7ZNPKW) 高匿住宅代理以防数据请求被拦截。
-- 🎁 **领取折扣码**：【**WELCOME20**】8折优惠：新人注册后7日内用
- [点击注册购买时输入折扣码ipcook](https://www.ipcook.com/user/register?ref=7ZNPKW) 
----
-
-##  内容产出（脚本、视频、文章） Skills
-
-### 视频脚本、文章、爆款文案与SEO博客
-
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
-| :--- | :--- | :--- | :--- |
-| [NotebookLM Skill](https://github.com/claude-world/notebooklm-skill) | 结合 NotebookLM 做深度资料研究，自动生成长文和脚本，是长篇资料提炼和“洗稿降重”的绝佳利器。 | 需 Claude Code | `/skill add notebooklm-skill` |
-| [Claude Blog](https://github.com/AgriciDaniel/claude-blog) | 30 个写作 Skill 覆盖博客全流程，优化 Google SEO 排名，提供极专业的独立站 SEO 优化建议。 | 需 Node.js 环境 | `/skill add claude-blog` |
-| [Drama Skills](https://github.com/worldwonderer/drama-skills) | AI 短剧/漫剧创作全套流水线，涵盖剧本、分镜与提示词生成。 | 需 Claude/Codex | `/skill add drama-skills` |
-| [Writing Style Skill](https://github.com/jzOcb/writing-style-skill) | 内置自动学习功能，可精准模仿特定作者的写作风格。 | 需提供写作样本 | `/skill add writing-style-skill` |
-| [Better Documents](https://github.com/anildash/better-documents) | 应用沟通最佳实践来大幅改进技术文档与 SOP 的质量。 | 零门槛 | `/skill add better-documents` |
-
-### AI 画图、电商配图与一键抠图
-
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
-| :--- | :--- | :--- | :--- |
-| [Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | 跨平台的高质量图像、视频和音频生成集成库。 | 支持多个 CLI | `npm install -g generative-media-skills` |
-| [Banana Claude](https://github.com/AgriciDaniel/banana-claude) | 由 Gemini 驱动的 AI 图像生成工具，出图极快且免费额度友好，非常适合大批量快速配图。 | 需 Gemini API | `/skill add banana-claude` |
-| [Nano Banana 2 Skill](https://github.com/kingbootoshi/nano-banana-2-skill) | 专注 AI 图像生成 CLI，支持绿幕透明度处理和风格转移。 | 支持 Claude Code | `/skill add nano-banana-2-skill` |
-| [Ecommerce Visual Copywriting](https://github.com/feichanggege/ecommerce-visual-copywriting-skill) | 针对电商产品图自动生成视觉文案与排版，一键搞定高转化主图，帮助小卖家省下美工费。 | 需图片素材 | `/skill add ecommerce-visual-copywriting-skill` |
-
-### 自动剪视频、长视频切片与加字幕
-
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
-| :--- | :--- | :--- | :--- |
-| [Video Shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 用 Remotion 配合 152 个镜头配方批量生成电影级产品视频。 | 需 Node.js 环境 | `npm install video-shotcraft` |
-| [Clipify](https://github.com/louisedesadeleer/clipify) | 自动提取长视频高光时刻，重构为 9:16 竖屏并加面部追踪字幕，堪称 YouTube Shorts 和 TikTok 切片号的印钞机。 | 支持 Claude Code | `/skill add clipify` |
-| [Video Recap Skills](https://github.com/worldwonderer/video-recap-skills) | 将任意长视频自动剪辑并生成中文解说，支持无缝导出至剪映。 | 支持 Claude Code | `/skill add video-recap-skills` |
-| [BaoCut](https://github.com/JimLiu/baocut) | 自动化 macOS 本地剪辑应用，一键完成转录、翻译和粗剪。 | 需 macOS | [查阅项目主页](https://github.com/JimLiu/baocut) |
-| [Claude Shorts](https://github.com/AgriciDaniel/claude-shorts) | 长视频转短视频工具，内置 AI 片段自动评分系统。 | 支持 Claude Code | `/skill add claude-shorts` |
-
-### 网页排版与图文格式转换
-
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
-| :--- | :--- | :--- | :--- |
-| [HTML Anything](https://github.com/nexu-io/html-anything) | 涵盖海报、社媒卡片等 9 种排版场景，一键生成并发布。 | 零门槛 | `/skill add html-anything` |
-| [Huashu MD HTML](https://github.com/alchaincyf/huashu-md-html) | Markdown 与 HTML 双向转换流水线，内置 4 套“反 AI 味”主题，做公众号和博客排版可告别格式错乱。 | 支持 Claude Code | `/skill add huashu-md-html` |
+### 🎯 適合人群
+跨境電商賣家、海外社媒矩陣營運者、獨立站站長，以及希望利用 AI IDE（如 Cursor / Windsurf / Claude Code）構建個人自動化工作流的超級個體。
 
 ---
 
-## 📱 社交媒体全渠道运营与自动发布 Skills
+## ⚙️ 運行準備
 
-### 矩阵号自动发帖与账号代运营
+- **安裝指令**：已寫入了下列表格內容
+- **基礎環境**：視具體項目要求，可能需預裝 Python、Node.js 或配置好相應的 AI 編輯器。
+- **API 金鑰**：調用模型或外部平台接口時，需自備相應平台的 API Key。
+- **網絡環境**：部分涉及海外社媒抓取、跨國電商數據採集的 Skill 對網絡有要求，建議配置代理 IP。
+- **代理資源**： [ipcook](https://www.ipcook.com/user/register?ref=7ZNPKW) 高匿住宅代理以防數據請求被攔截。
+- 🎁 **領取折扣碼**：【**WELCOME20**】8折優惠：新人註冊後7日內用
+ [點擊註冊購買時輸入折扣碼ipcook](https://www.ipcook.com/user/register?ref=7ZNPKW) 
+---
 
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
+##  內容產出（腳本、影片、文章） Skills
+
+### 影片腳本、文章、爆款文案與SEO博客
+
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
 | :--- | :--- | :--- | :--- |
-| [Social AI Team](https://github.com/stevenflanagan1/social-ai-team) | 建立品牌专属声音档案，生成内容日历并自动化管理整个社媒审批流。 | 需配置品牌资料 | `/skill add social-ai-team` |
-| [Claude Skill Social Post](https://github.com/Hao0321/claude-skill-social-post) | 深度学习账号语气并分发到 FB/IG/X 等多平台，模仿效果极其惊艳，自动化程度极高。 | 支持 Claude Code | `/skill add claude-skill-social-post` |
-| [Claude Ads](https://github.com/AgriciDaniel/claude-ads) | 覆盖 12 个核心平台的付费媒体投放审计与报表自动生成。 | 需海外代理 | `/skill add claude-ads` |
-| [Agent Skill Creator](https://github.com/FrancyJGLisboa/agent-skill-creator) | 将任何标准工作流转换为可重用的 AI Agent Skills。 | 需懂工作流设计 | `/skill add agent-skill-creator` |
+| [NotebookLM Skill](https://github.com/claude-world/notebooklm-skill) | 結合 NotebookLM 做深度資料研究，自動生成長文和腳本，是長篇資料提煉和「洗稿降重」的絕佳利器。 | 需 Claude Code | `/skill add notebooklm-skill` |
+| [Claude Blog](https://github.com/AgriciDaniel/claude-blog) | 30 個寫作 Skill 覆蓋博客全流程，優化 Google SEO 排名，提供極專業的獨立站 SEO 優化建議。 | 需 Node.js 環境 | `/skill add claude-blog` |
+| [Drama Skills](https://github.com/worldwonderer/drama-skills) | AI 短劇/漫劇創作全套流水線，涵蓋劇本、分鏡與提示詞生成。 | 需 Claude/Codex | `/skill add drama-skills` |
+| [Writing Style Skill](https://github.com/jzOcb/writing-style-skill) | 內置自動學習功能，可精準模仿特定作者的寫作風格。 | 需提供寫作樣本 | `/skill add writing-style-skill` |
+| [Better Documents](https://github.com/anildash/better-documents) | 應用溝通最佳實踐來大幅改進技術文檔與 SOP 的質素。 | 零門檻 | `/skill add better-documents` |
 
-### TikTok 找对标账号、扒爆款与抓评论
+### AI 畫圖、電商配圖與一鍵去背
 
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
 | :--- | :--- | :--- | :--- |
-| [TikHub API Skill](https://github.com/liangdabiao/tikhub_api_skill) | 搜索 TikTok 热门趋势，定向获取视频详情和海量评论，是寻找对标账号和挖掘买家痛点的极强抓取工具。 | 需海外代理 | `/skill add tikhub_api_skill` |
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 官方 Playwright 浏览器自动化 MCP 服务器，通杀所有网页数据采集。 | 需海外代理 | `npm install @playwright/mcp` |
+| [Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | 跨平台的高質素圖像、影片和音頻生成集成庫。 | 支援多個 CLI | `npm install -g generative-media-skills` |
+| [Banana Claude](https://github.com/AgriciDaniel/banana-claude) | 由 Gemini 驅動的 AI 圖像生成工具，出圖極快且免費額度友好，非常適合大批量快速配圖。 | 需 Gemini API | `/skill add banana-claude` |
+| [Nano Banana 2 Skill](https://github.com/kingbootoshi/nano-banana-2-skill) | 專注 AI 圖像生成 CLI，支援綠幕透明度處理和風格轉移。 | 支援 Claude Code | `/skill add nano-banana-2-skill` |
+| [Ecommerce Visual Copywriting](https://github.com/feichanggege/ecommerce-visual-copywriting-skill) | 針對電商產品圖自動生成視覺文案與排版，一鍵搞定高轉化主圖，幫助小賣家省下美工費。 | 需圖片素材 | `/skill add ecommerce-visual-copywriting-skill` |
 
-### X (Twitter) 自动推文与热点监控
+### 自動剪影片、長影片切片與加字幕
 
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
 | :--- | :--- | :--- | :--- |
-| [X Article Publisher Skill](https://github.com/wshuyi/x-article-publisher-skill) | 将本地 Markdown 文章一键自动化推送到 X (Twitter) Articles。 | 支持 Claude Code | `/skill add x-article-publisher-skill` |
-| [X Research Skill](https://github.com/rohunvora/x-research-skill) | 针对 X 平台的深度研究 Agent：推文线程跟踪与来源简报生成。 | 需海外代理 | `/skill add x-research-skill` |
-| [GitHub MCP Server](https://github.com/github/github-mcp-server) | GitHub 官方 MCP 服务器，用于自动化监控竞品代码库和开发动态。 | 需 GitHub API | `npm install @github/mcp-server` |
+| [Video Shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 用 Remotion 配合 152 個鏡頭配方批量生成電影級產品影片。 | 需 Node.js 環境 | `npm install video-shotcraft` |
+| [Clipify](https://github.com/louisedesadeleer/clipify) | 自動提取長影片高光時刻，重構為 9:16 豎屏並加面部追蹤字幕，堪稱 YouTube Shorts 和 TikTok 切片號的印鈔機。 | 支援 Claude Code | `/skill add clipify` |
+| [Video Recap Skills](https://github.com/worldwonderer/video-recap-skills) | 將任意長影片自動剪輯並生成中文解說，支援無縫導出至剪映。 | 支援 Claude Code | `/skill add video-recap-skills` |
+| [BaoCut](https://github.com/JimLiu/baocut) | 自動化 macOS 本地剪輯應用，一鍵完成轉錄、翻譯和粗剪。 | 需 macOS | [查閱項目主頁](https://github.com/JimLiu/baocut) |
+| [Claude Shorts](https://github.com/AgriciDaniel/claude-shorts) | 長影片轉短影片工具，內置 AI 片段自動評分系統。 | 支援 Claude Code | `/skill add claude-shorts` |
 
-### LinkedIn 领英 B2B 拓客与互动
+### 網頁排版與圖文格式轉換
 
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
 | :--- | :--- | :--- | :--- |
-| [LinkedIn Skills](https://github.com/sergebulaev/linkedin-skills) | 自动化撰写 LinkedIn 帖子、自动评论互动和 Feed 流深度分析。 | 支持 Claude Code | `/skill add linkedin-skills` |
-| [Activepieces](https://github.com/activepieces/activepieces) | AI 工作流自动化平台，包含 400+ 节点，完美支持领英自动化，犹如开源版 Zapier，适合搭建极度复杂的自动化流。 | 需海外代理 | `docker run -p 3000:3000 activepieces/activepieces` |
-
-### 📸 小红书 / Instagram 视觉内容运营
-
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
-| :--- | :--- | :--- | :--- |
-| [Bazi Ziwei Skill](https://github.com/dzcmemory-web/bazi-ziwei-skill) | AI 八字 + 紫微斗数命理综合印证，是玄学引流号批量制造爆款算命贴的必备神器。 | 需一定命理常识 | `/skill add bazi-ziwei-skill` |
-| [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 最大的 MCP 服务器聚合资源库，内含大量社媒自动化数据提取脚本。 | 视具体项目而定 | [查阅项目主页](https://github.com/punkpeye/awesome-mcp-servers) |
-
-### ▶️ YouTube 运营与数据分析
-
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
-| :--- | :--- | :--- | :--- |
-| [YouTube Transcript Extractor](https://github.com/jdepoix/youtube-transcript-api) | 支持多语言的 YouTube 视频无字幕提取 API，准确率极高。 | 需海外代理 | `pip install youtube-transcript-api` |
-| [Headroom](https://github.com/headroomlabs-ai/headroom) | 处理超长 YouTube 视频前自动压缩文本，大幅降低大模型的 Token 消耗，长期调用能省下不少 API 费用。 | 需配置代理 | `npm install headroom` |
+| [HTML Anything](https://github.com/nexu-io/html-anything) | 涵蓋海報、社媒卡片等 9 種排版場景，一鍵生成並發布。 | 零門檻 | `/skill add html-anything` |
+| [Huashu MD HTML](https://github.com/alchaincyf/huashu-md-html) | Markdown 與 HTML 雙向轉換流水線，內置 4 套「反 AI 味」主題，做公眾號和博客排版可告別格式錯亂。 | 支援 Claude Code | `/skill add huashu-md-html` |
 
 ---
 
-## 🛒 跨境电商选品与竞品爬取 Skills
+## 📱 社交媒體全渠道營運與自動發布 Skills
 
-### 亚马逊 (Amazon) 查竞品与 Listing 优化
+### 矩陣號自動發帖與帳號代營運
 
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
 | :--- | :--- | :--- | :--- |
-| [Amazon Sorftime Research MCP](https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill) | 亚马逊 Listing 全维度穿透分析，含竞品与差评抓取，提供 Sorftime 官方级别的数据颗粒度，亚马逊卖家直接闭眼入。 | 需海外代理 | `/skill add amazon-sorftime-research-MCP-skill` |
-| [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills) | 亚马逊专属关键词研究、竞品分析与 Listing 审计自动化工具。 | 需海外代理 | `/skill add Amazon-Skills` |
-| [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) | 高性能代码智能 MCP 服务器，可用于逆向分析竞品电商网站代码。 | 需技术分析基础 | `npm install codebase-memory-mcp` |
+| [Social AI Team](https://github.com/stevenflanagan1/social-ai-team) | 建立品牌專屬聲音檔案，生成內容日曆並自動化管理整個社媒審批流。 | 需配置品牌資料 | `/skill add social-ai-team` |
+| [Claude Skill Social Post](https://github.com/Hao0321/claude-skill-social-post) | 深度學習帳號語氣並分發到 FB/IG/X 等多平台，模仿效果極其驚艷，自動化程度極高。 | 支援 Claude Code | `/skill add claude-skill-social-post` |
+| [Claude Ads](https://github.com/AgriciDaniel/claude-ads) | 覆蓋 12 個核心平台的付費媒體投放審計與報表自動生成。 | 需海外代理 | `/skill add claude-ads` |
+| [Agent Skill Creator](https://github.com/FrancyJGLisboa/agent-skill-creator) | 將任何標準工作流轉換為可重用的 AI Agent Skills。 | 需懂工作流設計 | `/skill add agent-skill-creator` |
 
-### 🗣️ 买家评论抓取与用户分析
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
+### TikTok 找對標帳號、扒爆款與抓評論
+
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
 | :--- | :--- | :--- | :--- |
-| [Private GPT](https://github.com/zylon-ai/private-gpt) | 本地化部署的 AI API 层，可安全处理海量电商评论并做情感分析。 | 需本地算力部署 | `docker run -p 8000:8000 private-gpt` |
+| [TikHub API Skill](https://github.com/liangdabiao/tikhub_api_skill) | 搜索 TikTok 熱門趨勢，定向獲取影片詳情和海量評論，是尋找對標帳號和挖掘買家痛點的極強抓取工具。 | 需海外代理 | `/skill add tikhub_api_skill` |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 官方 Playwright 瀏覽器自動化 MCP 伺服器，通殺所有網頁數據採集。 | 需海外代理 | `npm install @playwright/mcp` |
 
-### 📈 独立站 SEO 分析与网站数据爬取
+### X (Twitter) 自動推文與熱點監控
 
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
 | :--- | :--- | :--- | :--- |
-| [AI Marketing Suite](https://github.com/zubair-trabzada/ai-marketing-claude) | 包含 15 个营销 Skill，自动出具竞品情报和“客户就绪”级分析报告。 | 支持 Claude Code | `/skill add ai-marketing-claude` |
-| [DataForSEO Claude](https://github.com/zubair-trabzada/dataforseo-claude) | 网站关键词排名跟踪、反向链接审计与竞品 SEO 深度剖析，数据维度全面且专业，独立站 SEO 操盘手必备。 | 需海外代理 | `/skill add dataforseo-claude` |
-| [FastMCP](https://github.com/PrefectHQ/fastmcp) | 极速构建 MCP 服务器的 Python 框架，用于捏制自定义的商业监控看板。 | 需 Python 基础 | `pip install fastmcp` |
+| [X Article Publisher Skill](https://github.com/wshuyi/x-article-publisher-skill) | 將本地 Markdown 文章一鍵自動化推送到 X (Twitter) Articles。 | 支援 Claude Code | `/skill add x-article-publisher-skill` |
+| [X Research Skill](https://github.com/rohunvora/x-research-skill) | 針對 X 平台的深度研究 Agent：推文線程跟蹤與來源簡報生成。 | 需海外代理 | `/skill add x-research-skill` |
+| [GitHub MCP Server](https://github.com/github/github-mcp-server) | GitHub 官方 MCP 伺服器，用於自動化監控競品代碼庫和開發動態。 | 需 GitHub API | `npm install @github/mcp-server` |
 
-### 🛍️ Shopify / Dropshipping 一件代发自动化
+### LinkedIn 領英 B2B 拓客與互動
 
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
 | :--- | :--- | :--- | :--- |
-| [Ecommerce Visual Copywriting](https://github.com/feichanggege/ecommerce-visual-copywriting-skill) | 电商视觉文案 SOP，一键生成高转化产品主图与描述。 | 需图片素材 | `/skill add ecommerce-visual-copywriting-skill` |
-| [DBX Database Client](https://github.com/t8y2/dbx) | 内置 AI 的轻量级数据库客户端，用自然语言直接管理电商后台海量订单数据。 | 需数据库权限 | `npm install -g dbx` |
+| [LinkedIn Skills](https://github.com/sergebulaev/linkedin-skills) | 自動化撰寫 LinkedIn 帖子、自動評論互動和 Feed 流深度分析。 | 支援 Claude Code | `/skill add linkedin-skills` |
+| [Activepieces](https://github.com/activepieces/activepieces) | AI 工作流自動化平台，包含 400+ 節點，完美支援領英自動化，猶如開源版 Zapier，適合搭建極度複雜的自動化流。 | 需海外代理 | `docker run -p 3000:3000 activepieces/activepieces` |
 
-### 🚢 跨境物流与供应链管理
+### 📸 小紅書 / Instagram 視覺內容營運
 
-| 项目名称 | 功能说明 | 运行门槛 | 安装命令 / 链接 |
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
 | :--- | :--- | :--- | :--- |
-| [Logistics Tracker MCP](https://github.com/modelcontextprotocol/python-sdk) | 利用官方 SDK 构建的物流追踪器，支持多国跨境快递轨迹监控。 | 需海外代理 | `pip install mcp` |
-| [Activepieces](https://github.com/activepieces/activepieces) | 用 400+ 节点打通 ERP、物流商与店铺后台，搭建全链路供应链监控流。 | 需海外代理 | `docker run -p 3000:3000 activepieces/activepieces` |
+| [Bazi Ziwei Skill](https://github.com/dzcmemory-web/bazi-ziwei-skill) | AI 八字 + 紫微斗數命理綜合印證，是玄學引流號批量製造爆款算命貼的必備神器。 | 需一定命理常識 | `/skill add bazi-ziwei-skill` |
+| [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 最大的 MCP 伺服器聚合資源庫，內含大量社媒自動化數據提取腳本。 | 視具體項目而定 | [查閱項目主頁](https://github.com/punkpeye/awesome-mcp-servers) |
+
+### ▶️ YouTube 營運與數據分析
+
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
+| :--- | :--- | :--- | :--- |
+| [YouTube Transcript Extractor](https://github.com/jdepoix/youtube-transcript-api) | 支援多語言的 YouTube 影片無字幕提取 API，準確率極高。 | 需海外代理 | `pip install youtube-transcript-api` |
+| [Headroom](https://github.com/headroomlabs-ai/headroom) | 處理超長 YouTube 影片前自動壓縮文本，大幅降低大模型的 Token 消耗，長期調用能省下不少 API 費用。 | 需配置代理 | `npm install headroom` |
 
 ---
 
-## 📌 收录原则与免责声明
+## 🛒 跨境電商選品與競品爬取 Skills
 
-- **收录原则**：近期活跃更新、拥有清晰文档、能直接解决真实业务痛点。
-- **推荐提报**：欢迎通过 Issue 或 Pull Request 推荐优秀项目，格式要求请查阅 [CONTRIBUTING.md](CONTRIBUTING.md)。
-- **安全提醒**：第三方 Skill 工具可能涉及访问网络或读取本地文件，安装前请仔细阅读 [SECURITY.md](SECURITY.md) 注意数据安全。
-- **免责声明**：本项目不对第三方工具提供官方背书。进行数据采集时，请务必遵守适用法律与各平台规则。
+### 亞馬遜 (Amazon) 查競品與 Listing 優化
+
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
+| :--- | :--- | :--- | :--- |
+| [Amazon Sorftime Research MCP](https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill) | 亞馬遜 Listing 全維度穿透分析，含競品與差評抓取，提供 Sorftime 官方級別的數據顆粒度，亞馬遜賣家直接閉眼入。 | 需海外代理 | `/skill add amazon-sorftime-research-MCP-skill` |
+| [Amazon Skills](https://github.com/nexscope-ai/Amazon-Skills) | 亞馬遜專屬關鍵詞研究、競品分析與 Listing 審計自動化工具。 | 需海外代理 | `/skill add Amazon-Skills` |
+| [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp) | 高性能代碼智能 MCP 伺服器，可用於逆向分析競品電商網站代碼。 | 需技術分析基礎 | `npm install codebase-memory-mcp` |
+
+### 🗣️ 買家評論抓取與用戶分析
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
+| :--- | :--- | :--- | :--- |
+| [Private GPT](https://github.com/zylon-ai/private-gpt) | 本地化部署的 AI API 層，可安全處理海量電商評論並做情感分析。 | 需本地算力部署 | `docker run -p 8000:8000 private-gpt` |
+
+### 📈 獨立站 SEO 分析與網站數據爬取
+
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
+| :--- | :--- | :--- | :--- |
+| [AI Marketing Suite](https://github.com/zubair-trabzada/ai-marketing-claude) | 包含 15 個營銷 Skill，自動出具競品情報和「客戶就緒」級分析報告。 | 支援 Claude Code | `/skill add ai-marketing-claude` |
+| [DataForSEO Claude](https://github.com/zubair-trabzada/dataforseo-claude) | 網站關鍵詞排名跟蹤、反向連結審計與競品 SEO 深度剖析，數據維度全面且專業，獨立站 SEO 操盤手必備。 | 需海外代理 | `/skill add dataforseo-claude` |
+| [FastMCP](https://github.com/PrefectHQ/fastmcp) | 極速構建 MCP 伺服器的 Python 框架，用於捏制自定義的商業監控看板。 | 需 Python 基礎 | `pip install fastmcp` |
+
+### 🛍️ Shopify / Dropshipping 一件代發自動化
+
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
+| :--- | :--- | :--- | :--- |
+| [Ecommerce Visual Copywriting](https://github.com/feichanggege/ecommerce-visual-copywriting-skill) | 電商視覺文案 SOP，一鍵生成高轉化產品主圖與描述。 | 需圖片素材 | `/skill add ecommerce-visual-copywriting-skill` |
+| [DBX Database Client](https://github.com/t8y2/dbx) | 內置 AI 的輕量級資料庫客戶端，用自然語言直接管理電商後台海量訂單數據。 | 需資料庫權限 | `npm install -g dbx` |
+
+### 🚢 跨境物流與供應鏈管理
+
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
+| :--- | :--- | :--- | :--- |
+| [Logistics Tracker MCP](https://github.com/modelcontextprotocol/python-sdk) | 利用官方 SDK 構建的物流追蹤器，支援多國跨境快遞軌跡監控。 | 需海外代理 | `pip install mcp` |
+| [Activepieces](https://github.com/activepieces/activepieces) | 用 400+ 節點打通 ERP、物流商與店鋪後台，搭建全鏈路供應鏈監控流。 | 需海外代理 | `docker run -p 3000:3000 activepieces/activepieces` |
+
+---
+
+## 📌 收錄原則與免責聲明
+
+- **收錄原則**：近期活躍更新、擁有清晰文檔、能直接解決真實業務痛點。
+- **推薦提報**：歡迎透過 Issue 或 Pull Request 推薦優秀項目，格式要求請查閱 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- **安全提醒**：第三方 Skill 工具可能涉及訪問網絡或讀取本地文件，安裝前請仔細閱讀 [SECURITY.md](SECURITY.md) 注意數據安全。
+- **免責聲明**：本項目不對第三方工具提供官方背書。進行數據採集時，請務必遵守適用法律與各平台規則。
