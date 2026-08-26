@@ -1,6 +1,6 @@
 # Easy AI Skills: AI Skills & Agent Skills 精選導航
 
-[簡體中文](README.md) · [English](README.en.md)
+[繁体中文](README.md) · [English](README.en.md)
 
 ### 這個項目是什麼？
 本項目收集、整理並精選了 GitHub 上真實可落地、針對具體業務場景的 **AI Skills**（涵蓋 Claude 外掛、Cursor 規則、MCP 技能節點等形態）。
