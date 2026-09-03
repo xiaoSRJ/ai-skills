@@ -20,9 +20,9 @@ Cross-border e-commerce sellers, overseas social media matrix operators, indepen
 - **Basic Environment**: Depending on the specific project, you may need to pre-install Python, Node.js, or configure the corresponding AI editor.
 - **API Keys**: When calling models or external platform interfaces, you need to provide your own API Keys for the respective platforms.
 - **Network Environment**: Some Skills involving overseas social media scraping and cross-border e-commerce data extraction require a specific network environment. A proxy IP is highly recommended.
-- **Proxy Resource**: [ipcook](https://www.ipcook.com/user/register?ref=7ZNPKW) highly anonymous residential proxies to prevent data requests from being blocked.
+- **Proxy Resource**: [ipcook](https://www.ipcook.com/user/register?ref=7OWUML) highly anonymous residential proxies to prevent data requests from being blocked.
 - 🎁 **Promo Codes**: Use 【**WELCOME20**】 for **20% OFF**: valid within 7 days of registration for new users. 
-  [Click here to register and apply the code for ipcook](https://www.ipcook.com/user/register?ref=7ZNPKW)
+  [Click here to register and apply the code for ipcook](https://www.ipcook.com/user/register?ref=7OWUML)
 
 ---
 
