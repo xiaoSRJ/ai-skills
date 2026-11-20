@@ -4,7 +4,7 @@
 
 # Easy AI Skills: AI Skills & Agent Skills 精選導航
 
-> 想找 2026 年真正能直接幹活的 **AI Skills / Agent Skills / MCP 伺服器**？這是一份專為**出海營銷、跨境電商、電商選品與社媒矩陣營運**打造的實戰清單——拒絕花裏胡哨的技術演示，只收錄能裝進 Claude Code / Cursor / Windsurf、拿來解決真實業務痛點的**AI 自動化工作流**，並且每個收錄項目都經過**每週自動體檢**（實時報告見 [STATUS.md](STATUS.md)）。
+> 想找 2026 年真正能直接幹活的 **AI Skills / Agent Skills / MCP 伺服器**？這是一份專為**出海營銷、跨境電商、電商選品與社媒矩陣營運**打造的實戰清單——拒絕花裏胡哨的技術演示，只收錄能裝進 Claude Code / Cursor / Windsurf、拿來解決真實業務痛點的**AI 自動化工作流**，並且每個收錄項目都經過**每週自動體檢**。
 
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![List status](https://img.shields.io/badge/status-verified%20weekly-brightgreen.svg)
