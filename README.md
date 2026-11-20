@@ -37,11 +37,23 @@
 
 ## 目錄
 
+- [Agent Skills 生態與官方技能庫](#-agent-skills-生態與官方技能庫)
 - [內容產出（腳本、影片、文章）Skills](#-內容產出腳本影片文章-skills)
 - [社交媒體全渠道營運與自動發布 Skills](#-社交媒體全渠道營運與自動發布-skills)
 - [跨境電商選品與競品爬取 Skills](#-跨境電商選品與競品爬取-skills)
 - [常見問題 FAQ](#-常見問題-faq)
 - [收錄原則與免責聲明](#-收錄原則與免責聲明)
+
+---
+
+## 🗂️ Agent Skills 生態與官方技能庫
+
+**Agent Skills 生態與官方技能庫**：從 Anthropic 官方 Agent Skills 倉庫到整合 57 個技能 + 21 個 Agents 的商業作業系統——給你的 Claude Code / Cursor 一個即裝即用的 Agent 技能底座。
+
+| 項目名稱 | 功能說明 | 運行門檻 | 安裝指令 / 連結 |
+| :--- | :--- | :--- | :--- |
+| [Anthropic Skills (Official)](https://github.com/anthropics/skills) | Anthropic 官方 Agent Skills 倉庫——軟體工程等領域的生產級 Skills，Claude Code / Cursor 直接可用。 | 需 Claude Code / Cursor | `git clone https://github.com/anthropics/skills` |
+| [ClaudeOps](https://github.com/Lifecycle-Innovations-Limited/claude-ops) | Claude Code 的商業作業系統——57 個 Skills + 21 個 Agents，覆蓋行銷、營運、開發與彙報。 | 需 Claude Code | [查閱項目主頁](https://github.com/Lifecycle-Innovations-Limited/claude-ops) |
 
 ---
 
@@ -77,6 +89,7 @@ AI 內容自動化一條龍：**AI 寫作、AI 剪片、AI 配圖、排版發布
 | [Video Recap Skills](https://github.com/worldwonderer/video-recap-skills) | 將任意長影片自動剪輯並生成中文解說，支援無縫導出至剪映。 | 支援 Claude Code | `/skill add video-recap-skills` |
 | [BaoCut](https://github.com/JimLiu/baocut) | 自動化 macOS 本地剪輯應用，一鍵完成轉錄、翻譯和粗剪。 | 需 macOS | [查閱項目主頁](https://github.com/JimLiu/baocut) |
 | [Claude Shorts](https://github.com/AgriciDaniel/claude-shorts) | 長影片轉短影片工具，內置 AI 片段自動評分系統。 | 支援 Claude Code | `/skill add claude-shorts` |
+| [ClipForge](https://github.com/xixihhhh/clipforge) | 開源 AI 帶貨短視頻神器——上傳一張商品圖，AI 自動提煉賣點並剪出短視頻，適合電商賣家批量產出帶貨素材。 | 需海外代理 | [查閱項目主頁](https://github.com/xixihhhh/clipforge) |
 
 ### 網頁排版與圖文格式轉換
 

@@ -36,11 +36,23 @@ Cross-border e-commerce sellers, overseas social media matrix operators, indepen
 
 ## Table of Contents
 
+- [Agent Skills Ecosystem & Official Skill Libraries](#-agent-skills-ecosystem--official-skill-libraries)
 - [Content Creation (Scripts, Video, Articles) Skills](#-content-creation-scripts-video-articles-skills)
 - [Omnichannel Social Media & Auto-Publishing Skills](#-omnichannel-social-media--auto-publishing-skills)
 - [Cross-border E-commerce & Competitor Scraping Skills](#-cross-border-e-commerce--competitor-scraping-skills)
 - [FAQ](#-faq)
 - [Inclusion Criteria & Disclaimer](#-inclusion-criteria--disclaimer)
+
+---
+
+## 🗂️ Agent Skills Ecosystem & Official Skill Libraries
+
+The **Agent Skills ecosystem**: from the official Anthropic Agent Skills repository to a business operating system bundling 57 skills + 21 agents — an install-and-go foundation for your Claude Code / Cursor.
+
+| Project Name | Features & Description | Prerequisites | Install Cmd / Link |
+| :--- | :--- | :--- | :--- |
+| [Anthropic Skills (Official)](https://github.com/anthropics/skills) | Official Agent Skills repository from Anthropic — production-grade skills for software engineering and beyond, ready for Claude Code / Cursor. | Claude Code / Cursor | `git clone https://github.com/anthropics/skills` |
+| [ClaudeOps](https://github.com/Lifecycle-Innovations-Limited/claude-ops) | Business operating system for Claude Code — 57 skills and 21 agents covering marketing, ops, dev and reporting. | Claude Code | [View Project](https://github.com/Lifecycle-Innovations-Limited/claude-ops) |
 
 ---
 
@@ -76,6 +88,7 @@ The full AI content automation pipeline: **AI writing, AI video editing, AI imag
 | [Video Recap Skills](https://github.com/worldwonderer/video-recap-skills) | Auto-edits any long video and generates Chinese commentary, supporting seamless export to JianYing (CapCut). | Claude Code | `/skill add video-recap-skills` |
 | [BaoCut](https://github.com/JimLiu/baocut) | Automates the macOS local editing app to complete transcription, translation, and rough cuts in one click. | macOS | [View Project](https://github.com/JimLiu/baocut) |
 | [Claude Shorts](https://github.com/AgriciDaniel/claude-shorts) | Long-to-short video tool with a built-in AI clip auto-scoring system. | Claude Code | `/skill add claude-shorts` |
+| [ClipForge](https://github.com/xixihhhh/clipforge) | Open-source AI e-commerce short-video maker — upload a product image, AI extracts the selling points and cuts the video. Perfect for sellers to batch-produce affiliate-ready ads. | Overseas proxy | [View Project](https://github.com/xixihhhh/clipforge) |
 
 ### Web Typography & Format Conversion
 
